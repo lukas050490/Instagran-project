@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cellphone {
+    position: relative;
+}
+
+.image-cell {
+    height: 550px;
+    margin-top: 100px;
+}
+
+.imagem-celular {
+    height: 474px;
+    position: absolute;
+    left: 134px;
+    top: 120px;
+    transition: opacity 2s ease-in-out;
+
+}
+
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 300px;
+
+    img {
+        width: 140px;
+        height: 50px;
+        margin-top: 10px;
+
+    }
+
+    .link-cadastro {
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin-top: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+
+        p {
+            margin-top: 5px;
+        }
+
+        a {
+            margin-top: 5px;
+            text-decoration: none;
+            color: blue;
+        }
+    }
+
+    .paragrafo-obtenha {
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+}
+
+.itens-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+    img {
+        width: 200px;
+        height: 50px;
+        align-self: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        height: 30px;
+        padding-left: 5px;
+        cursor: pointer;
+    }
+
+    button {
+        height: 30px;
+        background-color: blue;
+        color: azure;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    a {
+        padding-left: 60px;
+        margin-top: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        color: blue;
+    }
+}

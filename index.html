@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Instagran</title>
+</head>
+
+<body>
+    <div class="cellphone">
+        <img src="./assets/celular.png" class="image-cell" />
+        <img src="./assets/insta1.png" class="imagem-celular" />
+        <img src="./assets/insta2.png" class="imagem-celular" id="troca-imagem" />
+    </div>
+
+    <div class="cadastro">
+        <div class="itens-cadastro">
+            <img src="./assets/insta-logo.png" />
+            <input placeholder="Telefone, nome de usuario ou email" />
+            <input placeholder="Senha" />
+            <button>Entrar</button>
+            <a href="#">Entrar com o Facebook</a>
+            <a href="#">Esqueceu sua senha?</a>
+        </div>
+
+        <div class="link-cadastro">
+            <p>Não tem uma conta?</p><a href="#">Cadastre-se</a>
+        </div>
+        <p class="paragrafo-obtenha">Obtenha o aplicativo</p>
+        <div class="imagem-apps">
+            <img src="./assets/appstore-foto.png" />
+            <img src="./assets/playstore-foto.png" />
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    let imagem = document.getElementById("troca-imagem")
+
+    function trocaImage() {
+
+        if (imagem.style.opacity == 0) {
+            imagem.style.opacity = 1
+        } else {
+            imagem.style.opacity = 0
+        }
+    }
+
+    setInterval(function () {
+        trocaImage()
+    }, 4000)
+
+</script>
+
+</html>
