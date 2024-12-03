@@ -108,3 +108,77 @@ body {
         color: blue;
     }
 }
+
+@media(max-width: 720px) {
+   body {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .image-cell {
+    height: 420px;
+   }
+
+   .imagem-celular {
+    height: 360px;
+    width: 170px;
+    left: 102px;
+    top: 120px;
+  }
+
+  .cadastro{
+    width: 300px;
+    
+    img {
+        width: 200px;
+    }
+
+    input{
+        font-size: 16px;
+        margin-bottom: 10px;
+        height: 40px;
+    }
+
+    a {
+        font-size: 18px;
+       
+    }
+  }
+
+  .link-cadastro{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    p{
+        font-size: 15px;
+    }
+
+    a{
+        margin: 0;
+        font-size: 18px;
+    }
+  }
+
+  .paragrafo-obtenha {
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  .imagem-apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    img{
+      width:100px;
+      height: 30px;
+      margin-bottom: 10px;
+    }
+  }
+}
